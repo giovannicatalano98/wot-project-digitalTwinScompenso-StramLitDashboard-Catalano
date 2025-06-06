@@ -1,0 +1,23 @@
+https://www.fitbit.com/oauth2/authorize?response_type=code&client_id=23PK4Q&redirect_uri=http://127.0.0.1:8080&scope=profile%20activity&expires_in=604800
+
+
+
+https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=23PK4Q&redirect_uri=http://127.0.0.1:8080/&scope=activity%20nutrition%20heartrate%20location&expires_in=604800
+   
+
+
+https://www.fitbit.com/oauth2/authorize?client_id=23PK4Q&response_type=code
+&code_challenge=-4cf-Mzo_qg9-uq0F4QwWhRh4AjcAqNx7SbYVsdmyQM&code_challenge_method=S256
+&scope=activity%20heartrate%20location%20nutrition%20oxygen_saturation%20profile
+%20respiratory_rate%20settings%20sleep%20social%20temperature%20weight
+
+
+http://127.0.0.1:8080/?code=93324ae634eae17c95e5bef6ed1bb0a3eb8dcc22#_=_
+
+93324ae634eae17c95e5bef6ed1bb0a3eb8dcc22
+
+curl -X POST "https://api.fitbit.com/oauth2/token" \
+-H "accept: application/json" \
+-H "authorization: Basic <basic_token>" \
+-d "grant_type=authorization_code&code=b933a0106af4cd5af73cf1317b06de7a7fb092f3 \
+&redirect_uri=http://127.0.0.1:8080"
