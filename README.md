@@ -27,6 +27,6 @@ Questo progetto nasce con l’obiettivo di monitorare e analizzare la frequenza 
  **Requisiti**
  Python 3.8 o superiore
 
- La presentazione del sistema è disponibile nella seguente repository,con relativa documentazione completa:
+ La presentazione del sistema è disponibile nella seguente repository,con relativa documentazione completa: [wot-project-digitalTwinScompenso-Presentation-Catalano-](https://github.com/giovannicatalano98/wot-project-digitalTwinScompenso-Presentation-Catalano-)
 
  
